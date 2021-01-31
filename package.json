@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "serve",
+    "dev": "(npm start &) && rollup -c \"rollup.config.js\" -w"
+  },
+  "dependencies": {
+    "three": "^0.124.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "rollup": "^2.36.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "serve": "^11.3.2"
+  }
+}
